@@ -127,7 +127,8 @@ var Gallery = function () {
   }
 
   function showModal() {
-    $(modal).empty().append('<img src="img/js-logo.png">').show();
+    var img = $(this).find('img').attr('src');
+    $(modal).empty().append('<img src="'+ img + '">').show();
     $(modalOverlay).show();
   }
 

@@ -269,3 +269,23 @@ body {
 .clear {
   clear: both;
 }
+
+:-webkit-full-screen .github-ribbon {
+  display: none;
+}
+
+:-moz-full-screen .github-ribbon {
+  display: none;
+}
+
+:-o-full-screen .github-ribbon {
+  display: none;
+}
+
+:-ms-full-screen .github-ribbon {
+  display: none;
+}
+
+:full-screen .github-ribbon {
+  display: none;
+}
